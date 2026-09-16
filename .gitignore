@@ -1,0 +1,94 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+
+# Environment / Secrets
+
+.env
+.env.*
+!.env.example
+
+
+# Data
+
+# Raw datasets
+data/raw/
+
+# Processed datasets
+data/processed/
+
+
+# Experiment Outputs
+
+# Model checkpoints
+outputs/checkpoints/
+
+# Generated figures
+outputs/figures/
+
+# Experiment logs
+outputs/logs/
+
+
+# IDE / Editors
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# Logs
+
+*.log
+
+
+# Temporary Files
+
+*.tmp
+*.temp
+*.bak
